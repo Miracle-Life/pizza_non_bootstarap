@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="css/glavnaya.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+
+<header class="header container-fluid">
+  <form >
+  <div class="header-top">
+    <div class="header-top_log_nav">
+
+      <div class="header-top__logo">
+
+        <h2 class="header-top__log"><a href="#" ><img class="cel" src="img/piz.png"><span>Pizza</span></a> </h2>
+      </div>
+      <div class="header-top__nav">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="glavnaya.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Заказ Пиццы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="onas.html">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontact.html">Контакты</a>
+          </li>
+
+        </ul>
+      </div>
+
+      </div>
+  </div>
+
+
+    <div class="header-top_container">
+      <div class="container">
+      <div class="container-left">
+
+        <div class="form">
+          <label>
+            <input type="text" class="text-1"  id='name' placeholder="Ваше Имя" required title="Name" pattern="[A-Za-zА-Яа-яЁё]+" >
+          </label>
+          <label>
+            <input type="tel"  id='mobile' placeholder="Телефон" required title="contact telephone +38(063)446-46-20" pattern="\+38\s?\(?\d{3}\)?\s?\d{3}-?\d{2}-?\d{2}">
+          </label>
+          <label>
+            <input type="text"  id='street' class="text-2" placeholder="Адрес доставки" required title="Order address" pattern="[A-Za-zА-Яа-яЁё0-9,.\-\s]+" >
+          </label>
+
+
+
+            <div class="sum">Сума: <span id="result"> 0.00</span></div>
+<!--          onclick="test_checkbox()"-->
+          <button type="submit" > Заказать </button>
+        </div>
+
+      </div>
+      <div class="container-center">
+        <img src="img/main-pizza.png"  id='im' class="img1">
+       <div class="container-center-text"   id="pizza"><h3>Выберите размер:</h3> <br>
+<div class=" cntr flags "  >
+  <label class="radio" >
+    <input type="radio"  name="size" id="size1" class="piz hidden" onclick="kod1()" value="100">
+    <span class="label"><br> <br>25см</span>
+  </label>
+  <label class="radio">
+    <input type="radio"  name="size" id="size2" class="piz hidden" onclick="kod2()"  value="120">
+    <span class="label"><br> <br>35см</span>
+  </label>
+  <label class="radio">
+    <input type="radio"  name='size' id="size3" class="piz hidden" onclick="kod3()" value="160">
+    <span class="label" > <br><br> 45см</span>
+  </label><br><br>
+       </div>
+
+       </div>
+
+      </div>
+      <div class="container-right">
+        <div class="container-right-text">
+          <h3> Выберите тип коржа:</h3>
+
+          <div class="flags">
+          <label>
+            <input type="radio" name="dough" class="piz"  id="d14"   value="9">
+            <span>Тесто"С бортиком"</span>
+          </label><br>
+          <label>
+            <input type="radio" name="dough" class="piz" id="d15"   value="6">
+            <span>Тесто"Тонкое"</span>
+
+          </label><br>
+          <label>
+            <input type="radio" name="dough" id="d16"  class="piz"  value="7">
+            <span> Тесто"Хот-дог"</span>
+
+          </label><br>
+          <label>
+            <input type="radio" name="dough" id="d17" class="piz"    value="7">
+            <span>Тесто"Сырный бортик"</span>
+
+          </label><br>
+          <label>
+            <input type="radio" name="dough" id="d18" class="piz"    value="8">
+            <span> Тесто"Кунжутный бортик</span>
+
+          </label>"<br><br>
+          </div>
+
+
+          <h3>Выберите дополнительные начинки:</h3>
+          <div class="flags">
+          <label>
+            <input type="checkbox" id="d1" name="ingredients"  class="piz" value="14">
+            <span>Ветчина 45г/14 грн</span>
+          </label><br>
+          <label>
+            <input type="checkbox" id="d2" name="ingredients"  class="piz" value="15">
+            <span>Бекон 45г/15 грн</span>
+
+          </label><br>
+          <label>
+            <input type="checkbox" id="d3" name="ingredients"  class="piz"  value="11">
+            <span>Венские колбаски 45г/11 грн</span>
+
+          </label><br>
+          <label>
+            <input type="checkbox" id="d4" name="ingredients"  class="piz" data-name="aa" value="29">
+            <span>Говядина 50г/29 грн</span>
+
+          </label><br>
+          <label>
+            <input type="checkbox" id="d5" name="ingredients"  class="piz" data-name="aa" value="9">
+            <span> Ананас 30г/9 грн</span>
+
+          </label><br>
+          <label>
+            <input type="checkbox" id="d6" name="ingredients"  class="piz" data-name="aa" value="11">
+            <span>Помидор 70г/11 грн</span>
+
+          </label><br>
+          <label>
+            <input type="checkbox" id="d7" name="ingredients"  class="piz" data-name="aa" value="12">
+            <span>Шампиньоны 40г/12 грн</span>
+
+          </label><br>
+          <label>
+            <input type="checkbox" id="d8" name="ingredients"  class="piz" data-name="aa" value="13">
+            <span>Опята 40г/13 грн</span>
+
+          </label><br>
+          <label>
+            <input type="checkbox" id="d9" name="ingredients"  class="piz" data-name="aa" value="10">
+            <span> Шпинат 15г/10 грн</span>
+
+          </label><br>
+          <label>
+            <input type="checkbox" id="d10" class="piz"  name="ingredients"  data-name="aa" value="10">
+            <span>Барбекью 30г/10 грн</span>
+          </label><br><br>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="header-bottom">
+        <div class="header-bottom-cent">
+          <p class="rainbow">
+            <em>АКЦИЯ</em><br>
+
+          </p>
+          <p class="rainbow-animated">При заказе пиццы на суму больше 200 грн, <br>
+            банка Pepsi в подарок:)</p>
+          <img class="loader-cola"  src="img/1626619-coca-cola-0-33l-ad89.png">
+        </div>
+    </div>
+
+  </form>
+</header>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/main3.js"></script>
+
+
+</body>
+
+</html>

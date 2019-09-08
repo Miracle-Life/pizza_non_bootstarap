@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2553cbb0-ea3a-431a-b1de-7abac3afbed4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Hw Piz\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ORvnAIRg8r2kZXfe0nC9A1kKBy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="D:/curs/vue.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Hw Piz/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2553cbb0-ea3a-431a-b1de-7abac3afbed4" name="Default Changelist" comment="" />
+      <created>1562589975879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562589975879</updated>
+      <workItem from="1562589977025" duration="312000" />
+      <workItem from="1562599542264" duration="11447000" />
+      <workItem from="1562695078762" duration="7849000" />
+      <workItem from="1562738692166" duration="10985000" />
+      <workItem from="1562878781063" duration="3534000" />
+      <workItem from="1562882467525" duration="427000" />
+      <workItem from="1562912241235" duration="744000" />
+      <workItem from="1562916106169" duration="231000" />
+      <workItem from="1563199898316" duration="5946000" />
+      <workItem from="1563216328304" duration="2642000" />
+      <workItem from="1563219033238" duration="7317000" />
+      <workItem from="1563305434077" duration="6465000" />
+      <workItem from="1563477482076" duration="5692000" />
+      <workItem from="1563514920738" duration="2107000" />
+      <workItem from="1563952368911" duration="151000" />
+      <workItem from="1563953394941" duration="30000" />
+      <workItem from="1563953450081" duration="88000" />
+      <workItem from="1563953686394" duration="480000" />
+      <workItem from="1563954249994" duration="404000" />
+      <workItem from="1563954678124" duration="67000" />
+      <workItem from="1563955866140" duration="134000" />
+      <workItem from="1563979782548" duration="14000" />
+      <workItem from="1564076784375" duration="9245000" />
+      <workItem from="1564088488250" duration="2288000" />
+      <workItem from="1564175290416" duration="319000" />
+      <workItem from="1564208566456" duration="6819000" />
+      <workItem from="1564215944421" duration="989000" />
+      <workItem from="1564245808356" duration="2824000" />
+      <workItem from="1564295839198" duration="11000" />
+      <workItem from="1564297306102" duration="2026000" />
+      <workItem from="1564384359420" duration="553000" />
+      <workItem from="1564386519192" duration="165000" />
+      <workItem from="1564386771188" duration="91000" />
+      <workItem from="1564984388176" duration="41000" />
+      <workItem from="1564984454528" duration="364000" />
+      <workItem from="1565150821030" duration="10000" />
+      <workItem from="1565197045845" duration="74000" />
+      <workItem from="1565205916367" duration="10428000" />
+      <workItem from="1565296647025" duration="363000" />
+      <workItem from="1565297035701" duration="742000" />
+      <workItem from="1565329496936" duration="1323000" />
+      <workItem from="1565330885375" duration="5050000" />
+      <workItem from="1565455503818" duration="24000" />
+      <workItem from="1565459871693" duration="22547000" />
+      <workItem from="1565593468617" duration="1897000" />
+      <workItem from="1565623945588" duration="7979000" />
+      <workItem from="1565755222618" duration="130000" />
+      <workItem from="1565758905842" duration="7000" />
+      <workItem from="1565766552048" duration="12000" />
+      <workItem from="1565986661167" duration="28000" />
+      <workItem from="1566113921857" duration="17863000" />
+      <workItem from="1567924964120" duration="2432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Hw_Piz$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1565330102839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
